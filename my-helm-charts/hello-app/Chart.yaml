@@ -1,0 +1,4 @@
+apiVersion: v2
+name: hello-app
+description: A simple nginx helm chart
+version: 0.1.0
