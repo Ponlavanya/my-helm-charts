@@ -1,0 +1,14 @@
+replicaCount: 1
+
+image:
+  repository: nginx
+  tag: latest
+
+service:
+  type: LoadBalancer
+  port: 80
+
+pingFed:
+  entityID: "hello-app"
+  ssoURL: ""
+  certificate: ""
