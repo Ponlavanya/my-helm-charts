@@ -6,4 +6,9 @@ image:
 
 service:
   type: LoadBalancer
+
   port: 80
+
+pingFed:
+  ssoURL: "https://example.com/sso"
+  entityID: "my-entity-id"
